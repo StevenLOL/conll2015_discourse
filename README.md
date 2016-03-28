@@ -7,24 +7,24 @@ A Refined End-to-End Discourse Parser participated in CoNLL 2015 Shared Task is 
 
 - [ETE](http://etetoolkit.org/)
 
-'''
+```
 #Steven
 pip install ete3
 
 from ete3 import Tree
 t = Tree( "((a,b),c);" )
 t.show()
-'''
+```
 - [MALLET](http://mallet.cs.umass.edu/)
 
-'''
+```
 #Steven
 #must have javac installed
 sudo apt-get install openjdk-7-jdk
 git clone https://github.com/mimno/Mallet.git
 cd Mallet
 make
-'''
+```
 - Python >= 2.7
 
 ## Usage
